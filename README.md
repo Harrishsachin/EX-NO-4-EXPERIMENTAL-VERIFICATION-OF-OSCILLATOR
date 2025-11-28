@@ -29,25 +29,21 @@ The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an invertin
 ---
 ## CIRCUIT DIAGRAM
 RC PHASE SHIFT OSCILLATOR
-<img width="952" height="976" alt="image" src="https://github.com/user-attachments/assets/dd2b5792-8183-4214-9245-8373279357f6" />
+![WhatsApp Image 2025-11-28 at 23 59 19_0f68769a](https://github.com/user-attachments/assets/b5276c26-bc6d-48ad-bcaf-e0411186c46f)
+
 
 
 
 ---
 
 ## MODEL GRAPH
-<img width="414" height="324" alt="image" src="https://github.com/user-attachments/assets/3389b740-b70e-4148-9bf9-e5319627260f" />
+![WhatsApp Image 2025-11-28 at 23 59 59_6ad98e57](https://github.com/user-attachments/assets/0b013e7f-afdb-4f7e-b951-524e9424bc0a)
 
 ## DESIGN
 
 ## RC PHASE SHIFT OSCILLATOR
-fo = 1 /  6 (2RC) Rf  29 R1
-C = 0.01F, fo = 200 Hz.
-R = 1 /  6 (2  f C ) = 3.3 k
-Therefore, Choose R = 3.3k
-To prevent loading,
-R1   10 R
-R1 =10 R = 33 k. Rf = 29R1=1MΩ
+![WhatsApp Image 2025-11-29 at 00 00 28_6b44767a](https://github.com/user-attachments/assets/d4fe53ea-f037-40b2-a74d-1d573646515e)
+
 
 ---
 ## PROCEDURE
@@ -57,17 +53,12 @@ R1 =10 R = 33 k. Rf = 29R1=1MΩ
 ---
 ## TABULATION/OBSERVATION
 
+![WhatsApp Image 2025-11-29 at 00 01 08_9096c1d6](https://github.com/user-attachments/assets/c8170bc9-ed3a-4833-af19-0761b370acd4)
 
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-29 at 00 01 44_ee8a5447](https://github.com/user-attachments/assets/0ec85153-aa6e-4783-a094-5b4f42171741)
 
 ---
 ## THEORY
@@ -90,30 +81,19 @@ The frequency of oscillation is given by fo = 1/2πRC
 
 ## CIRCUIT DIAGRAM
 WIEN BRIDGE OSCILLATOR
-<img width="570" height="480" alt="image" src="https://github.com/user-attachments/assets/be71f26e-36ad-4677-8117-51362146cbbd" />
-
+![WhatsApp Image 2025-11-29 at 00 02 02_e7d67621](https://github.com/user-attachments/assets/ae831029-1cbf-4a0d-95fe-ab15d37300f9)
 
 ---
 ## MODEL GRAPH
-<img width="414" height="325" alt="image" src="https://github.com/user-attachments/assets/1cc285f7-05c7-4b65-af59-b28cf039fcd3" />
+![WhatsApp Image 2025-11-29 at 00 02 23_9dcc1eab](https://github.com/user-attachments/assets/f8ede05a-f2b4-475e-a947-7eaf5e0ff7f6)
 
 ---
 
 ## DESIGN
 
 ## WIEN BRIDGE OSCILLATOR
-Select frequency f0 = 1KHz
-fo = 1/2πRC
-A = 1+(Rf / R1) = 3.
-To find R & Rf.
-Therefore Rf = 2R1 & assume C = 0.1μf & find R from
-R=1/2πfC
-=1/2*3.14*1*103*0.1*10-6
-= 1.59KΩ.
-Assume R1 = 10R & find Rf from Rf = 2R1
-Therefore R1 = 1.5K *10=15KΩ
-Rf = 15K *2=30KΩ
----
+![WhatsApp Image 2025-11-29 at 00 02 42_69a2849d](https://github.com/user-attachments/assets/cc8f272b-cea2-4ee9-8d62-78a0ba5f668e)
+
 
 ## PROCEDURE
 
@@ -124,19 +104,15 @@ Rf = 15K *2=30KΩ
 ---
 ## TABULATION/OBSERVATION
 
+![WhatsApp Image 2025-11-29 at 00 03 10_d29c9a63](https://github.com/user-attachments/assets/e92c1246-9212-41eb-85ec-ec8adc6201b0)
 
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-29 at 00 03 30_2800281b](https://github.com/user-attachments/assets/c8e3ed9a-e1a8-4fad-ac94-864d197af646)
 
 
 ---
 ## RESULT:
 
-Thus the RC Phase Shift and Wien Bridge oscillators are designed and tested using op-amp IC 741.
+![WhatsApp Image 2025-11-29 at 00 03 47_cd6ad750](https://github.com/user-attachments/assets/fd635226-dcfa-4ceb-8a9a-1d1217c7a222)
+
